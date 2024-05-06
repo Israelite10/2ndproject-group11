@@ -5,11 +5,11 @@
   margin-left: 0.6rem;
   /* margin-right: ; */
 }
-.background-image {
+.background-image1 {
   background-image: url("pics/bg-image.png");
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 85vh;
 }
 .ball {
   background-color: red;
@@ -19,4 +19,67 @@
   top: 1px;
   margin-top: 3px;
   left: 83%;
+}
+.background-image {
+  background-image: url("pics/pyramid.png");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 250px;
+}
+
+.bg-img {
+  background-image: url("pics/ocean-sky.png");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 250px;
+}
+
+.bg-img2 {
+  background-image: url("pics/water.png");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 250px;
+}
+
+.no-gutters .col {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.btn-custom-orange {
+  background-color: #eb662b;
+  color: #fff;
+  border-color: #eb662b;
+}
+.bg-orange {
+  background-color: #eb662b0d;
+}
+.box1,
+.box2,
+.box3 {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin: 15px;
+  border-radius: 5px;
+}
+.col-2 img {
+  width: 200px;
+}
+
+i {
+  color: black;
+}
+.col-2 img {
+  width: 120px;
+  height: 150px;
+
+  > p {
+    font-weight: lighter;
+  }
 }

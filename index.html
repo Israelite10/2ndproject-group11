@@ -5,9 +5,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css" integrity="sha512-ajhUYg8JAATDFejqbeN7KbF2zyPbbqz04dgOLyGcYEk/MJD3V+HJhJLKvJ2VVlqrr4PwHeGTTWxbI+8teA7snw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <div class="background-image">
+    <div class="background-image1">
       <nav class="navbar navbar-expand-lg mb-5 icon">
         <div class="navbar-brand me-5">
           <img src="pics/viatours.png " width="20" alt="logo" />
@@ -59,7 +60,9 @@
                 <a class="nav-link text-light pe-2" href="#">Sign Up</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Log In</a>
+                <a class="nav-link text-light border p-1 rounded-pill" href="#"
+                  >Log In</a
+                >
               </li>
             </ul>
           </div>
@@ -73,23 +76,37 @@
           </h1>
           <p class="text-light">From local escapes to far-flung adventures</p>
         </div>
-        <div class="input-group w-25 position-relative">
+        <div class="input-group w-25 position-relative mb-5">
           <input
             type="text"
-            class="form-control rounded-pill"
+            class="form-control rounded-pill col-sm-12"
             placeholder="search products"
           />
           <span class="ball rounded-pill"></span>
         </div>
       </div>
-      <div class="class">
-        <button class="btn btn-light" type="submit">Button</button>
-        <button class="btn btn-light" type="submit">Button</button>
-        <button class="btn btn-light" type="submit">Button</button>
+
+      <div class="text-center">
+        <p class="text-light">Or browse the selected type</p>
+      </div>
+
+      <div class="class mt-5 text-center pb-3">
+        <button class="btn btn-outline-light rounded-pill" type="submit">
+          Culture
+        </button>
+        <button class="btn btn-outline-light rounded-pill mx-3" type="submit">
+          Food
+        </button>
+        <button class="btn btn-outline-light rounded-pill mx-3" type="submit">
+          Name
+        </button>
+        <button class="btn btn-outline-light rounded-pill mx-3" type="submit">
+          Adventure
+        </button>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container mb-5 pb-5 ps-5">
       <div class="row align-items-center mt-5">
         <h4
           style="
@@ -100,8 +117,9 @@
         >
           Best of <span class="text-secondary">New York</span>
         </h4>
-        <div class="col-sm-3">
-          <div class="card" style="width: 18rem">
+      
+        <div class="col-sm-3 col-6">
+          <div class="card" style="width: 15rem">
             <img src="././pics/NY.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">New York ,USA</h5>
@@ -114,8 +132,8 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-3">
-          <div class="card" style="width: 18rem">
+        <div class="col-sm-3 col-6">
+          <div class="card" style="width: 15rem">
             <img src="././pics/NY2.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">New York ,USA</h5>
@@ -126,8 +144,8 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-3">
-          <div class="card" style="width: 18rem">
+        <div class="col-sm-3 col-6">
+          <div class="card" style="width: 15rem">
             <img src="././pics/NY3.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">New York ,USA</h5>
@@ -140,8 +158,8 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-3">
-          <div class="card" style="width: 18rem">
+        <div class="col-sm-3 col-6">
+          <div class="card" style="width: 15rem">
             <img src="././pics/NY4.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">New York ,USA</h5>
@@ -158,6 +176,142 @@
       </div>
     </div>
 
+    <div class="container mb-5">
+      <div class="class">
+        <div class="row no-gutters">
+          <div class="col-md-3 col-6 mx-2 mx-auto">
+            <div class="background-image">
+              <p class="text-light pb-2 ms-3">
+                Enjoy these cool staycations promotions
+              </p>
+              <p class="text-light pb-2 ms-3">
+                Best staycations <br />
+                deals
+              </p>
+              <button class="btn-bg-light rounded-2 border-light ms-3 p-1">
+                See activities
+              </button>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 mx-auto">
+            <div class="background-image">
+              <div class="bg-img2">
+                <p class="text-light pb-2 ms-3">
+                  Donts forget to check out these activities
+                </p>
+                <p class="text-light pb-2 ms-3">
+                  All Time <br />
+                  Favourite Activities in Dubai
+                </p>
+                <button class="btn-bg-light rounded-2 border-light ms-3 p-1">
+                  See activities
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 my-2">
+            <div class="background-image">
+              <div class="bg-img">
+                <p class="text-light pb-2 ms-3">80% Discount</p>
+                <p class="text-light pb-2 ms-3 pb-4">
+                  Discover the <br />
+                  wow of Europe
+                </p>
+                <button class="btn-bg-light rounded-2 border-light p-1 ms-3">
+                  See activities
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-orange py-5 px-5">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card-head mx-5 px-5 py-5">
+            <div class="card-body py-5">
+              <h5 class="card-title pb-2 fw-bold">Popular things to do</h5>
+              <p class="card-text text-justify">
+                There are many variations of passages of Lorem Ipsum <br />
+                available, but the majority have suffered alteration in some
+                <br /> 
+                form..
+              </p>
+              <a href="#" class="btn btn-primary w-75 btn btn-custom-orange"
+                >See All</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card-head mx-5 px-5">
+            <div class="card-body py-3 d-flex">
+              <div class="box1">
+                <!-- <i class="fa-solid fa-tree-city"></i> -->
+              </div>
+
+              <div class="box2">
+                <!-- <i class="fa-solid fa-house-signal"></i> -->
+              </div>
+             
+              <div class="box3">
+                <!-- <i class="fa-light fa-ship"></i> -->
+              </div>
+            </div>
+
+            <div class="card-body d-flex">
+              <div class="box1">
+                <!-- <i class="fa-thin fa-bus"></i> -->
+              </div>
+              <div class="box2">
+                <!-- <i class="fa-light fa-umbrella-beach"></i> -->
+              </div>
+              <div class="box3">
+                <!-- <i class="fa-sharp fa-light fa-book"></i> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Tresnding destination">
+      <h5 class="">Trending destination<h5>
+    </div>
+
+
+
+      <div class="row mx-auto ">
+        
+        <div class="col-2"><img src="pics/pic1.png"  alt="">
+          <small class="">Cruises</small>
+        </div>
+        <div class="col-2"><img src="pics/pic2.png" alt="">
+         <small>Beach tours</small> 
+        </div>
+      
+           <div class="col-2"><img src="pics/pic3.png"  alt="">
+          <small class="">City Tours</small>
+           </div>
+    
+
+       
+        <div class="col-2"><img src="pics/pic4.png" alt="">
+         <small> Museum Tour</small>
+        </div>
+        <div class="col-2"><img src="pics/pic5.png" alt="">
+          <small>Food</small>
+        </div>
+        <div class="col-2"><img src="pics/pic6.png" alt="">
+         <small> Hiking</small>
+        </div>
+      
+      
+    </div> 
+    
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
