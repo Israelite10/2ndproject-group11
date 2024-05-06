@@ -5,3 +5,18 @@
   margin-left: 0.6rem;
   /* margin-right: ; */
 }
+.background-image {
+  background-image: url("pics/bg-image.png");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.ball {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 1px;
+  margin-top: 3px;
+  left: 83%;
+}
