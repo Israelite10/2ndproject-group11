@@ -90,3 +90,39 @@ i {
   height: 400px;
   width: 100%;
 }
+
+
+.sub-img {
+  background-image: url("pics/sub-pic.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+  
+}
+.sub ::placeholder{
+color: white;
+
+  
+}
+/* .card-img {
+  background-image: url("pics/pic11.png");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: 200px;
+}
+.card-img2 {
+  background-image: url("pics/pic12.png");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: 200px;
+}
+.card-img3 {
+  background-image: url("pics/pic13.png");
+  background-size: cover;
+  background-position: center;
+  height: 30%;
+  width: 500px;
+} */ */
