@@ -83,3 +83,10 @@ i {
     font-weight: lighter;
   }
 }
+.bg-image {
+  background-image: url("pics/bg-11.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+}
